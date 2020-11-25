@@ -1,0 +1,55 @@
+#padre {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecera {
+    background-color: tomato;
+    padding: 5px;
+    margin-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.menu {
+    background-color: wheat;
+    flex: 1;
+    height: 200px !important;
+    padding: 5px;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.contenido {
+    background-color: lightsalmon;
+    flex: 5;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+.lateral {
+    flex: 2;
+    margin-left: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.pie {
+    background-color: lemonchiffon;
+    padding: 10px 20px;
+    margin-top: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: right;
+}
+
+#flex {
+    display: flex;
+    height: 400px;
+}
+
+.justificado {
+    text-align: justify;
+}
